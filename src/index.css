@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+
+
+h1,h2,h3,h4, h5, p,span, a{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.btn-all{
+    background: #3c12c6;
+    border-radius: 25px;
+    padding: 8px 30px;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+}
+.btn-all:hover{
+    background: #3d03f9;
+    color: #fff;
+}
+
+.btn-all-sm:hover{
+    background: #3d03f9;
+    color: #fff;
+}
+
+.btn-all-sm{
+    background: #3c12c6;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+}

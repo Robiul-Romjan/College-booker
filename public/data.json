@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "name": "Sherpur Govt. College",
+        "image": "https://img.freepik.com/free-photo/free-time-students-bachelor-s-campus-life-rhythm-five-friendly-students-are-walking_8353-6408.jpg?size=626&ext=jpg&ga=GA1.2.882928322.1680193816&semt=sph",
+        "rating": 4.5,
+        "admissionDate": "2023-09-01",
+        "researchCount": 120,
+        "researchHistory": "This research paper explores the latest trends in AI and its potential applications in various industries.",
+        "events": [
+            {
+                "id": 1,
+                "name": "Annual Fest 2023",
+                "date": "2023-11-15",
+                "description": "Join us for the most awaited annual fest with music, dance, and fun!"
+            },
+            {
+                "id": 2,
+                "name": "Career Fair",
+                "date": "2023-10-10",
+                "description": "Explore job opportunities and meet top recruiters from various industries."
+            }
+        ],
+        "sports": [
+            {
+                "id": 1,
+                "name": "Football",
+                "description": "Participate in exciting football matches and showcase your skills."
+            },
+            {
+                "id": 2,
+                "name": "Basketball",
+                "description": "Join our competitive basketball team and compete in regional tournaments."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Sherpur Govt. College",
+        "image": "https://img.freepik.com/premium-photo/group-students-happy-be-back-university_23-2148586614.jpg?size=626&ext=jpg&ga=GA1.2.882928322.1680193816&semt=sph",
+        "rating": 4.5,
+        "admissionDate": "2023-09-01",
+        "researchCount": 120,
+        "researchHistory": "This research paper explores the latest trends in AI and its potential applications in various industries.",
+        "events": [
+            {
+                "id": 1,
+                "name": "Annual Fest 2023",
+                "date": "2023-11-15",
+                "description": "Join us for the most awaited annual fest with music, dance, and fun!"
+            },
+            {
+                "id": 2,
+                "name": "Career Fair",
+                "date": "2023-10-10",
+                "description": "Explore job opportunities and meet top recruiters from various industries."
+            }
+        ],
+        "sports": [
+            {
+                "id": 1,
+                "name": "Football",
+                "description": "Participate in exciting football matches and showcase your skills."
+            },
+            {
+                "id": 2,
+                "name": "Basketball",
+                "description": "Join our competitive basketball team and compete in regional tournaments."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Sherpur Govt. College",
+        "image": "https://img.freepik.com/free-photo/architecture-independence-palace-ho-chi-minh-city_181624-21243.jpg?size=626&ext=jpg&ga=GA1.2.882928322.1680193816&semt=sph",
+        "rating": 4.5,
+        "admissionDate": "2023-09-01",
+        "researchCount": 120,
+        "researchHistory": "This research paper explores the latest trends in AI and its potential applications in various industries.",
+        "events": [
+            {
+                "id": 1,
+                "name": "Annual Fest 2023",
+                "date": "2023-11-15",
+                "description": "Join us for the most awaited annual fest with music, dance, and fun!"
+            },
+            {
+                "id": 2,
+                "name": "Career Fair",
+                "date": "2023-10-10",
+                "description": "Explore job opportunities and meet top recruiters from various industries."
+            }
+        ],
+        "sports": [
+            {
+                "id": 1,
+                "name": "Football",
+                "description": "Participate in exciting football matches and showcase your skills."
+            },
+            {
+                "id": 2,
+                "name": "Basketball",
+                "description": "Join our competitive basketball team and compete in regional tournaments."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Sherpur Govt. College",
+        "image": "https://img.freepik.com/free-photo/architecture-independence-palace-ho-chi-minh-city_181624-21243.jpg?size=626&ext=jpg&ga=GA1.2.882928322.1680193816&semt=sph",
+        "rating": 4.5,
+        "admissionDate": "2023-09-01",
+        "researchCount": 120,
+        "researchHistory": "This research paper explores the latest trends in AI and its potential applications in various industries.",
+        "events": [
+            {
+                "id": 1,
+                "name": "Annual Fest 2023",
+                "date": "2023-11-15",
+                "description": "Join us for the most awaited annual fest with music, dance, and fun!"
+            },
+            {
+                "id": 2,
+                "name": "Career Fair",
+                "date": "2023-10-10",
+                "description": "Explore job opportunities and meet top recruiters from various industries."
+            }
+        ],
+        "sports": [
+            {
+                "id": 1,
+                "name": "Football",
+                "description": "Participate in exciting football matches and showcase your skills."
+            },
+            {
+                "id": 2,
+                "name": "Basketball",
+                "description": "Join our competitive basketball team and compete in regional tournaments."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Sherpur Govt. College",
+        "image": "https://img.freepik.com/free-photo/architecture-independence-palace-ho-chi-minh-city_181624-21243.jpg?size=626&ext=jpg&ga=GA1.2.882928322.1680193816&semt=sph",
+        "rating": 4.5,
+        "admissionDate": "2023-09-01",
+        "researchCount": 120,
+        "researchHistory": "This research paper explores the latest trends in AI and its potential applications in various industries.",
+        "events": [
+            {
+                "id": 1,
+                "name": "Annual Fest 2023",
+                "date": "2023-11-15",
+                "description": "Join us for the most awaited annual fest with music, dance, and fun!"
+            },
+            {
+                "id": 2,
+                "name": "Career Fair",
+                "date": "2023-10-10",
+                "description": "Explore job opportunities and meet top recruiters from various industries."
+            }
+        ],
+        "sports": [
+            {
+                "id": 1,
+                "name": "Football",
+                "description": "Participate in exciting football matches and showcase your skills."
+            },
+            {
+                "id": 2,
+                "name": "Basketball",
+                "description": "Join our competitive basketball team and compete in regional tournaments."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Sherpur Govt. College",
+        "image": "https://img.freepik.com/free-photo/architecture-independence-palace-ho-chi-minh-city_181624-21243.jpg?size=626&ext=jpg&ga=GA1.2.882928322.1680193816&semt=sph",
+        "rating": 4.5,
+        "admissionDate": "2023-09-01",
+        "researchCount": 120,
+        "researchHistory": "This research paper explores the latest trends in AI and its potential applications in various industries.",
+        "events": [
+            {
+                "id": 1,
+                "name": "Annual Fest 2023",
+                "date": "2023-11-15",
+                "description": "Join us for the most awaited annual fest with music, dance, and fun!"
+            },
+            {
+                "id": 2,
+                "name": "Career Fair",
+                "date": "2023-10-10",
+                "description": "Explore job opportunities and meet top recruiters from various industries."
+            }
+        ],
+        "sports": [
+            {
+                "id": 1,
+                "name": "Football",
+                "description": "Participate in exciting football matches and showcase your skills."
+            },
+            {
+                "id": 2,
+                "name": "Basketball",
+                "description": "Join our competitive basketball team and compete in regional tournaments."
+            }
+        ]
+    }
+]

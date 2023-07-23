@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "title": "Advancements in Artificial Intelligence",
+      "author": "John Doe",
+      "college": "Sample College",
+      "publicationDate": "2022-12-15",
+      "abstract": "This research paper explores the latest trends in AI and its potential applications in various industries.",
+      "downloadLink": "https://example.com/research_paper_1.pdf"
+    },
+    {
+      "id": 2,
+      "title": "Climate Change and Its Impacts",
+      "author": "Jane Smith",
+      "college": "Sample College",
+      "publicationDate": "2023-02-28",
+      "abstract": "An in-depth analysis of climate change, its causes, and the urgent need for sustainable solutions.",
+      "downloadLink": "https://example.com/research_paper_2.pdf"
+    },
+    {
+      "id": 3,
+      "title": "The Future of Renewable Energy",
+      "author": "Michael Johnson",
+      "college": "Another College",
+      "publicationDate": "2023-04-20",
+      "abstract": "This research paper discusses the potential of renewable energy sources to meet future energy demands.",
+      "downloadLink": "https://example.com/research_paper_3.pdf"
+    },
+    {
+      "id": 4,
+      "title": "Exploring Sustainable Agriculture Practices",
+      "author": "Emma Lee",
+      "college": "Another College",
+      "publicationDate": "2023-07-10",
+      "abstract": "An overview of current economic trends and their implications for businesses worldwide.",
+      "downloadLink": "https://example.com/research_paper_4.pdf"
+    },
+    {
+      "id": 5,
+      "title": "Enhancing Cybersecurity for Small Businesses",
+      "author": "Emma Lee",
+      "college": "Another College",
+      "publicationDate": "2023-07-10",
+      "abstract": "An overview of current economic trends and their implications for businesses worldwide.",
+      "downloadLink": "https://example.com/research_paper_4.pdf"
+    },
+    {
+      "id": 6,
+      "title": "The Future of Space Exploration",
+      "author": "Emma Lee",
+      "college": "Another College",
+      "publicationDate": "2023-07-10",
+      "abstract": "An overview of current economic trends and their implications for businesses worldwide.",
+      "downloadLink": "https://example.com/research_paper_4.pdf"
+    }
+  ]
