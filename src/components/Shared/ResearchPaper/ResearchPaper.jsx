@@ -6,10 +6,11 @@ const ResearchPaper = () => {
     const [links, setLinks] = useState([]);
 
     useEffect(()=> {
-        fetch("researchData.json")
+        fetch("/researchData.json")
         .then(res => res.json())
         .then(data => setLinks(data))
     }, [])
+    console.log(links)
     return (
         <div className="max-w-[2520px] mx-auto xl:px-20 md:px-10 sm:px-2 px-4 mt-12">
             <h2 className="text-2xl md:text-3xl font-semibold text-center">Research Papers</h2>

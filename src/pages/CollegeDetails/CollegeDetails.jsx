@@ -1,20 +1,9 @@
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 
 
 const CollegeDetails = () => {
-    const [college, setCollege] = useState()
-    const { id } = useParams();
-
-    useEffect(() => {
-        fetch("/data.json")
-            .then(res => res.json())
-            .then(data => {
-                const detail = data.find(dt => dt.id == id);
-                setCollege(detail)
-            })
-    }, [id]);
-
+   
+    const college = useLoaderData();
 
     return (
         <div className="max-w-[2520px] mx-auto xl:px-20 md:px-10 sm:px-2 px-4 mt-24">

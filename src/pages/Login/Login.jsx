@@ -1,17 +1,49 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 import { FcGoogle } from 'react-icons/fc'
 import { useContext } from 'react'
 import { AuthContext } from '../../providers/AuthProvider'
+import Swal from 'sweetalert2'
 
 const Login = () => {
-    const { signInWithGoogle} = useContext(AuthContext);
-    
+    const { signIn, signInWithGoogle} = useContext(AuthContext);
+
+    const navigate = useNavigate();
+    const location = useLocation()
+    const from = location.state?.from?.pathname || "/"
+
+
+    // handle log in
+    const handleSignIn = e => {
+      e.preventDefault();
+      const form = e.target;
+        const email = form.email.value;
+        const password = form.password.value;
+        // console.log(email, password)
+        signIn(email, password)
+        .then(result => {
+          console.log(result.user)
+          Swal.fire({
+            position: 'top-center',
+            icon: 'success',
+            title: 'You have successfully login',
+            showConfirmButton: false,
+            timer: 1500
+        })
+          navigate(from, { replace: true }) || "/"
+        })
+        .catch(error => {
+          console.log(error.message)
+        })
+        form.reset()
+    }
+
     // handle google signIn
     const handleGoogleSignIn = () => {
         signInWithGoogle()
         .then(result => {
             console.log(result.user)
+            navigate(from, { replace: true }) || "/"
         })
         .catch(error => {
             console.log(error.message)
@@ -28,6 +60,7 @@ const Login = () => {
           </p>
         </div>
         <form
+        onSubmit={handleSignIn}
           noValidate=''
           action=''
           className='space-y-6 ng-untouched ng-pristine ng-valid'
@@ -43,7 +76,7 @@ const Login = () => {
                 id='email'
                 required
                 placeholder='Enter Your Email Here'
-                className='w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-rose-500 bg-gray-200 text-gray-900'
+                className='w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-[#4021a5] bg-gray-200 text-gray-900'
                 data-temp-mail-org='0'
               />
             </div>
@@ -59,7 +92,7 @@ const Login = () => {
                 id='password'
                 required
                 placeholder='*******'
-                className='w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-rose-500 bg-gray-200 text-gray-900'
+                className='w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-[#4021a5] bg-gray-200 text-gray-900'
               />
             </div>
           </div>
@@ -67,7 +100,7 @@ const Login = () => {
           <div>
             <button
               type='submit'
-              className='bg-rose-500 w-full rounded-md py-3 text-white'
+              className='bg-[#4021a5] w-full rounded-md py-3 text-white'
             >
               Continue
             </button>
@@ -94,7 +127,7 @@ const Login = () => {
           Do not have an account yet?{' '}
           <Link
             to='/signup'
-            className='hover:underline hover:text-rose-500 text-gray-600'
+            className='hover:underline hover:text-[#4021a5] text-gray-600'
           >
             Sign up
           </Link>

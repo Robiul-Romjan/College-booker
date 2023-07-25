@@ -27,7 +27,8 @@ export const router = createBrowserRouter([
         },
         {
             path: "/view-details/:id",
-            element: <CollegeDetails />
+            element: <PrivateRoute><CollegeDetails /></PrivateRoute>,
+            loader: ({params}) => fetch(`${import.meta.env.VITE_url}colleges/${params.id}`)
         },
         {
             path: "/admission",
@@ -48,5 +49,4 @@ export const router = createBrowserRouter([
         element: <SignUp />
     }
     
-
   ])

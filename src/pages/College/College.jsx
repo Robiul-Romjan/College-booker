@@ -6,7 +6,7 @@ const College = () => {
     const [colleges, setColleges] = useState([]);
 
     useEffect(() => {
-        fetch("data.json")
+        fetch(`${import.meta.env.VITE_url}colleges`)
             .then(res => res.json())
             .then(data => setColleges(data))
     }, [])
@@ -15,15 +15,17 @@ const College = () => {
             <h2 className="text-2xl md:text-3xl font-semibold text-center">All Colleges</h2>
             <div className="grid md:grid-cols-3 gap-6 mt-8">
                 {
-                    colleges.map(college => <div className="shadow-lg p-4 rounded border-[#4021a5] border-y-2" key={college.id} data-aos="flip-up" data-aos-duration="1000">
-                        <img className="rounded" src={college.image} alt="" />
+                    colleges.map(college => <div className="shadow-lg p-4 rounded border-[#4021a5] border-y-2" key={college._id} data-aos="flip-up" data-aos-duration="1000">
+                        <img className="rounded w-full h-[220px]" src={college.image} alt="" />
                         <div className="mt-4">
                             <h4 className="text-xl text-center text-[#4021a5] font-semibold mb-3">{college.name}</h4>
                             <p><span className="font-semibold">Admission Date:</span> {college.admissionDate}</p>
                             <p><span className="font-semibold">Research Count:</span> {college.researchCount} research</p>
                             <p><span className="font-semibold">Ratings:</span> {college.rating} stars</p>
                         </div>
-                        <Link to={`/view-details/${college.id}`} className="btn-all w-full mt-3">Details</Link>
+                        <div className="text-center mt-4">
+                            <Link to={`/view-details/${college._id}`} className="btn-all w-full mt-3">Details</Link>
+                        </div>
                     </div>)
                 }
             </div>
